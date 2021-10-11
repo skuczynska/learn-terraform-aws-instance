@@ -1,8 +1,8 @@
 terraform {
   backend "remote" {
-    organization = "hashicorp-learn"
+    organization = "skuczynska-organization"
     workspaces {
-      name = "Example-Worspace"
+      name = "Example-Workspace"
     }
   }
   required_providers {
